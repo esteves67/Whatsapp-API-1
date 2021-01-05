@@ -8,26 +8,23 @@ It is inspired base on https://github.com/pedroslopez/whatsapp-web.js
 4. After you got the "Client is Ready!" response in the console, you can now send message or send media message to other Whatsapp User.
 
 # SEND MESSAGE
-1. make a POST REQUEST to /send with json body num and message.
+1. make a POST REQUEST to /send with json body num and message.<br />
 Example :<br />
 ```json
 {"num" : "6285267671232", "message": "Hello world"}
 
 ```
 <br />
-
 Please note that the phone number format is an international format without + sign.
 
 
 # SEND MEDIA MESSAGE
 1. make a POST REQUEST to /sendMedia with json body file (url), message and num.<br />
-
 Example : <br />
 ```json
 {"num": "6285267671232", "message": "Hello world", "file": "https://i.ibb.co/TMxrFp2/Screenshot-20201130-235450-Whats-App.jpg"}
 ```
  <br />
-
 Please note that the phone number format is an international format without + sign.
 
 # TIPS
