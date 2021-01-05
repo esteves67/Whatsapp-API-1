@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mime-types": "^2.1.27",
+    "mongoose": "^5.11.9",
+    "nodemon": "^2.0.6",
+    "qrcode": "^1.4.4",
+    "qrcode-terminal": "^0.12.0",
+    "sulla": "^2.3.14",
+    "venom-bot": "^2.2.2",
+    "whatsapp-web.js": "^1.12.0"
+  },
+  "name": "whatsapp-api-react-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Gusfahmi Alghazali Caniago",
+  "license": "ISC",
+  "description": ""
+}
